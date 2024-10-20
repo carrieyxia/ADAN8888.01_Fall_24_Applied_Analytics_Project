@@ -70,7 +70,7 @@ target/
 .vscode/
 
 # CSV files
-# *.csv
+*.csv
 
 # Spyder
 .spyproject/

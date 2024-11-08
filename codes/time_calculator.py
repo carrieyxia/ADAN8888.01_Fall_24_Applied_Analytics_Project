@@ -36,8 +36,6 @@ def get_eta(source_lat, source_long, destination_lat, destination_long, mode='dr
 
 
 
-
-
 if __name__ == "__main__":
     # This code block will only run if the script is executed directly
     # It won't run if the script is imported as a module in another script

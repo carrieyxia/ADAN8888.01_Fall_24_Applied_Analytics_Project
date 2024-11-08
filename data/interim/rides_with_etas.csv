@@ -1,73 +1,73 @@
 source,destination,eta_minutes
-North End,West End,7.75105
-Beacon Hill,South Station,10.896666666666667
-North Station,Fenway,13.93795
-North End,Beacon Hill,12.600566666666667
-Boston University,North Station,15.7431
-South Station,Back Bay,12.912766666666666
-Fenway,North Station,18.218683333333335
-Theatre District,North End,1794.4328166666667
-West End,Northeastern University,13.099883333333334
-North End,Back Bay,19.508699999999997
-Back Bay,North End,20.087733333333333
-Fenway,Financial District,22.90666666666667
-West End,Fenway,11.789533333333333
-South Station,Theatre District,1789.3399666666667
-North End,Theatre District,1799.27435
-Northeastern University,Beacon Hill,12.323333333333332
-Theatre District,Fenway,1788.5311166666665
-Northeastern University,North Station,17.02995
-Northeastern University,Theatre District,1790.6364666666666
-Back Bay,Boston University,9.064333333333334
-Haymarket Square,Back Bay,15.40895
-Beacon Hill,Northeastern University,14.407516666666668
-West End,South Station,10.473466666666667
-Haymarket Square,Beacon Hill,9.605866666666666
-South Station,Beacon Hill,12.885766666666665
-South Station,North Station,13.010116666666667
-Haymarket Square,Financial District,6.96415
-Back Bay,South Station,15.75065
-Beacon Hill,North End,13.3647
-Haymarket Square,Theatre District,1794.6122333333333
-West End,Boston University,9.88195
-North End,North Station,6.6284833333333335
-North End,Financial District,11.466199999999999
-Back Bay,Northeastern University,8.669483333333334
-Financial District,Northeastern University,19.877533333333336
-Financial District,North End,9.644666666666666
-Boston University,Beacon Hill,11.036483333333333
-Theatre District,Haymarket Square,1796.3885333333335
-Theatre District,South Station,1790.1293
-Haymarket Square,West End,6.031183333333333
-Haymarket Square,North Station,3.6173
-Financial District,South Station,3.5742166666666666
-Fenway,Beacon Hill,13.512049999999999
-Boston University,Back Bay,10.14515
-North Station,Northeastern University,15.2483
-Back Bay,Fenway,9.189066666666667
-Northeastern University,Financial District,19.51631666666667
-South Station,Financial District,3.83385
-Boston University,West End,13.377183333333333
-North Station,North End,5.562866666666666
-North Station,Haymarket Square,3.3365
-Northeastern University,Back Bay,9.664383333333335
-West End,North End,6.8259
-Fenway,Theatre District,1791.9309833333332
-Financial District,Boston University,17.087683333333334
-Beacon Hill,Haymarket Square,8.556216666666668
-Theatre District,Boston University,1788.3402333333333
-Back Bay,Haymarket Square,16.410333333333334
-Fenway,Back Bay,13.30585
-Beacon Hill,Boston University,11.887599999999999
-Theatre District,Northeastern University,1789.1662833333332
-Fenway,West End,15.852766666666668
-Financial District,Haymarket Square,11.366000000000001
-North Station,South Station,12.5303
-Northeastern University,West End,14.664033333333332
-Financial District,Fenway,18.995283333333337
-West End,Haymarket Square,2.965233333333333
-Boston University,Theatre District,1788.3902333333333
-North Station,Boston University,12.030366666666668
-South Station,West End,11.343866666666665
-Boston University,Financial District,20.181533333333334
-Beacon Hill,Fenway,13.7952
+Theatre District,Fenway,19.502116666666666
+Beacon Hill,Haymarket Square,9.501566666666667
+Northeastern University,North Station,16.79455
+Fenway,Back Bay,11.004683333333332
+Northeastern University,Beacon Hill,13.268516666666667
+Back Bay,Haymarket Square,16.252233333333333
+Haymarket Square,Financial District,6.858666666666666
+South Station,Financial District,3.7375333333333334
+Financial District,Fenway,19.194716666666668
+South Station,Theatre District,8.3026
+Theatre District,South Station,8.361216666666667
+South Station,North Station,9.850166666666667
+Fenway,Theatre District,16.574516666666668
+South Station,Back Bay,12.88105
+Fenway,North Station,15.380533333333334
+Back Bay,Fenway,9.154016666666667
+Theatre District,Haymarket Square,11.078033333333334
+Fenway,Financial District,20.5098
+Boston University,Financial District,20.07065
+Financial District,Boston University,17.444983333333333
+North End,West End,7.541816666666667
+Haymarket Square,Beacon Hill,7.646416666666667
+Theatre District,Northeastern University,16.758683333333334
+Boston University,Beacon Hill,11.104066666666666
+North Station,South Station,12.1704
+North Station,Boston University,12.533616666666667
+West End,Northeastern University,13.779883333333334
+Northeastern University,Financial District,20.427266666666664
+Haymarket Square,West End,4.031366666666667
+Beacon Hill,Boston University,10.792116666666667
+North Station,Northeastern University,15.927666666666665
+Northeastern University,West End,14.635966666666667
+Boston University,West End,12.471499999999999
+Northeastern University,Back Bay,10.438616666666666
+North Station,Fenway,14.28335
+Financial District,South Station,3.5627666666666666
+Beacon Hill,Fenway,12.54185
+Theatre District,Boston University,18.712783333333334
+Financial District,North End,9.64645
+Haymarket Square,Theatre District,9.994916666666667
+Northeastern University,Theatre District,15.051516666666666
+West End,Boston University,10.38585
+West End,North End,7.167966666666667
+North End,Theatre District,14.22985
+North End,North Station,6.566599999999999
+Haymarket Square,Back Bay,13.924116666666666
+Boston University,Theatre District,14.622983333333334
+Beacon Hill,North End,14.314466666666668
+Financial District,Haymarket Square,7.07785
+North End,Financial District,10.949966666666667
+West End,South Station,10.433633333333335
+Fenway,West End,13.22195
+Back Bay,Boston University,9.410633333333333
+Fenway,Beacon Hill,11.854516666666665
+Back Bay,North End,20.16955
+Beacon Hill,Northeastern University,15.04955
+Back Bay,Northeastern University,9.041166666666667
+South Station,Beacon Hill,12.706683333333332
+Theatre District,North End,13.64665
+North Station,Haymarket Square,2.92765
+Back Bay,South Station,16.176116666666665
+Financial District,Northeastern University,20.184666666666665
+Beacon Hill,South Station,13.40165
+North Station,North End,6.003150000000001
+Haymarket Square,North Station,3.33
+Boston University,Back Bay,9.053149999999999
+West End,Fenway,12.135566666666668
+West End,Haymarket Square,3.0818333333333334
+Boston University,North Station,14.630083333333333
+North End,Back Bay,17.3211
+South Station,West End,9.091616666666665
+North End,Beacon Hill,11.822666666666667

@@ -233,6 +233,24 @@ def evaluate_model(model, X, y_true):
     
     return mse, rmse, r2
 def evaluate_model_v2(y_true, y_pred, individual_cases = False):
+    """
+    Evaluate a regression model's performance.
+
+    Parameters:
+    ----------
+    y_true : array-like
+        Actual target values.
+    y_pred : array-like
+        Predicted target values.
+    individual_cases : bool, optional, default=False
+        If True, returns MSE and RMSE. If False, includes R² score.
+
+    Returns:
+    -------
+    tuple
+        - If `individual_cases` is True: (mse, rmse)
+        - If `individual_cases` is False: (mse, rmse, r2)
+    """
     if individual_cases == True:
         rmse = root_mean_squared_error(y_true, y_pred)
         mse = rmse**2
@@ -245,11 +263,32 @@ def evaluate_model_v2(y_true, y_pred, individual_cases = False):
         return mse, rmse, r2
 
 def mean_squared_error(y_true, y_pred):
+    """
+    Calculate the mean squared error.
+    """
     rmse = root_mean_squared_error(y_true, y_pred)
     mse = rmse**2
     return mse
 
 ################## Model Deployment ##################
+# Save cleaned data to CSV
+def save_data(df, file_path):
+    """
+    Save a DataFrame to a CSV file.
+    Dependencies: pandas
+    """
+    df.to_parquet(file_path, index=False)
+    print(f"Data saved to {file_path}")
+
+def load_data(file_path):
+    """
+    Load data from a CSV file into a DataFrame.
+    Dependencies: pandas
+    """
+    df = pd.read_parquet(file_path)
+    print(f"Data loaded from {file_path}")
+    return df
+
 def save_model(model, file_path):
     """
     Serialize and save the model to a file.

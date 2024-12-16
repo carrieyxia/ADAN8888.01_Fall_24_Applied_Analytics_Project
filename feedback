@@ -1,0 +1,111 @@
+Team: Holly Cohan, Yesh Onipede, Yu Xia
+Feedback by: Aritra Ray, Maria Alice Fagundes Vieira
+
+-------------------------------------------------------------------------------------------------------
+Code and Code Output Feedback
+-------------------------------------------------------------------------------------------------------
+
+1. Comments and Readability
+● Feedback: The comments in the code are clear and provide context for each section. This
+ensures that the logic and purpose of each part of the implementation are easily
+understandable. The comments explain both the "what" and the "why" behind the code,
+which is critical for ensuring maintainability and helping other developers or
+collaborators follow the reasoning behind the code's structure and choices.
+
+2. Feature Engineering
+● Feedback: The time-related variables, such as rush_hour, weekend, and game_days, have
+been well-justified and are highly relevant to the problem domain. These features reflect
+real-world influences on rideshare pricing and likely contribute positively to model
+performance. The use of helper functions, like add_time_features, demonstrates
+thoughtful and effective feature engineering, ensuring that the process is modular and
+reusable. This approach enhances the flexibility and readability of the code.
+
+3. Code Reusability
+● Feedback: The modular design of the code, where external functions are stored in
+separate files (e.g., helper_function and time_calculator_rush_hr.ipynb), is a great
+example of code reusability. This structure allows for the reuse of code across different
+parts of the project, reducing redundancy and improving maintainability. It also makes
+the codebase more scalable if additional features or functions need to be added in the
+future.
+
+4. Categorical Encoding and Column Management
+● Feedback: The process of encoding categorical variables and removing irrelevant
+columns is handled effectively in the code. The strategy for managing columns ensures
+that only the necessary features are kept in the model, improving efficiency and
+potentially boosting model performance by reducing noise from irrelevant data.
+
+5. Output and Cleanliness
+● Feedback: The code is well-organized and formatted, with no warnings or errors. This
+contributes to the smooth execution of the code. Clean and organized code not only
+improves readability but also minimizes the risk of runtime issues, making the project
+more robust and reliable.
+
+6. Model Selection
+● Feedback: The model selection process is appropriate for the problem statement.
+However, the report could benefit from more detailed information about the models
+chosen and the rationale behind those selections. For example, explaining how the model
+was able to handle specific patterns in the data, such as time-based pricing trends, would
+strengthen the argument for the model's suitability for the task.
+
+-------------------------------------------------------------------------------------------------------
+Report Feedback
+-------------------------------------------------------------------------------------------------------
+
+1. Comprehensive Feature Engineering
+● Feedback: The report does an excellent job of discussing the creation of domain-relevant
+features, such as the time-related variables. These features align with the code's
+implementation and help to capture the real-world factors influencing rideshare pricing.
+This attention to domain relevance significantly contributes to the model's ability to make
+accurate predictions.
+
+2. Thorough Data Preparation and Handling
+● Feedback: Missing values in critical features, such as price, are handled effectively in the
+report. The use of APIs to impute values for Uber Taxi rides is a smart approach to
+maintain data integrity and robustness. This process ensures that missing data does not
+undermine the model's performance. The report provides a clear explanation of data
+imputation, aligning well with the code implementation and demonstrating a solid
+understanding of data preprocessing practices.
+
+3. Clear and Structured Model Development
+● Feedback: The report presents a well-structured workflow for model training, evaluation,
+and selection, reflecting the organized approach seen in the code. The use of PCA for
+dimensionality reduction and regularization techniques to address multicollinearity is
+particularly well-explained and shows a strong understanding of the dataset's challenges.
+This approach enhances the model's performance and demonstrates careful
+problem-solving.
+
+Suggestion for Improvement:
+● Model Evaluation and Metrics Explanation: The report includes useful metrics such as
+MSE, RMSE, and R², but the explanation of these metrics' significance could be
+expanded.
+○ MSE and RMSE: It would be helpful to explain why MSE and RMSE were
+chosen over other metrics like MAE (Mean Absolute Error). Discussing the
+advantages and limitations of these metrics in the context of rideshare pricing
+would help clarify their relevance.
+○ Practical Implications of RMSE: For example, an RMSE of around 80—what
+does this mean for price prediction accuracy? Explaining what an RMSE of 80
+translates to in practical terms (e.g., predicting prices within a $80 range) would
+provide more context for the reader.
+
+-------------------------------------------------------------------------------------------------------
+GitHub Repository Feedback
+-------------------------------------------------------------------------------------------------------
+
+1. Folder Organization and Structure
+● Feedback: The folder organization and structure of the repository are excellent. The
+purpose of each folder is clearly explained, and the files are logically arranged. This
+makes it easy to navigate the project, even for someone unfamiliar with it, which is
+crucial for maintaining a clean and user-friendly repository.
+
+2. File Naming and Accessibility
+● Feedback: The files are well-named and descriptive, making it easy to identify and locate
+specific files within the project. Descriptive file names help users quickly understand the
+content and purpose of each file, improving the overall accessibility of the repository.
+
+Suggestion for Improvement:
+● README.md: The README.md file is a key part of any repository, and while it
+provides a good overview, it could benefit from further details about the problem
+statement. Expanding on the data being used, the problem being addressed, and the
+context of the project would give users a better understanding of the project’s goals and
+objectives. This additional information would make it easier for others to understand the
+project's purpose and contribute more effectively.
